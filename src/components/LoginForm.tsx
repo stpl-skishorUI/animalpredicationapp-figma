@@ -44,7 +44,7 @@ export function LoginForm({ onLogin, isLoading, error }: LoginFormProps) {
                     <CardHeader className="pb-4">
                         <CardTitle className="flex items-center gap-2 justify-center">
                             <Lock className="w-5 h-5 text-blue-600" />
-                            <span>Veterinary Login</span>
+                            <span className='text-blue-600'>Veterinary Login</span>
                         </CardTitle>
                     </CardHeader>
                     <CardContent>
